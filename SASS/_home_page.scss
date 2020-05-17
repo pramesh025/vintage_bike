@@ -71,7 +71,7 @@
     display: grid;
     place-content: center;
     img {
-        height: 5em;
+        height: 7em;
     }
 }
 
@@ -98,6 +98,18 @@
     }
 }
 
+#vintage_oliva_2_text:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 0.8em solid transparent;
+    position: absolute;
+    left: 45%;
+    bottom: -20px;
+    border-top: 10px solid white;
+    z-index: 1;
+}
+
 #vintage_oliva_2_img {
     height: 50%;
     background-image: url(../Img/vintage_oliva_2.png);
@@ -106,13 +118,80 @@
     background-position: top center;
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:992px) {
     #vintage_oliva_2_text {
         height: 50%;
         padding-top: 30px;
         padding-bottom: 30px;
     }
     #vintage_oliva_2_img {
+        height: 20em;
+    }
+}
+
+#boriosa_1 {
+    height: 75vh;
+    background-image: url(../Img/boriosa_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-content: center;
+    img {
+        height: 7em;
+    }
+}
+
+#boriosa_2_text {
+    height: 50%;
+    margin-top: 30px;
+    font-size: 0.9em;
+    background-color: #ffff;
+    img {
+        padding: 20px;
+        display: block;
+        margin: 0 auto;
+    }
+    h5 {
+        word-spacing: 0.25em;
+        text-align: center;
+    }
+    p {
+        margin-left: 2em;
+        margin-right: 2em;
+        color: lighten($color: #000000, $amount: 60%);
+        text-align: justify;
+        text-align-last: left;
+    }
+}
+
+#boriosa_2_text:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 0.8em solid transparent;
+    position: absolute;
+    left: 45%;
+    bottom: -20px;
+    border-top: 10px solid white;
+    z-index: 1;
+}
+
+#boriosa_2_img {
+    height: 50%;
+    background-image: url(../Img/boriosa_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+@media only screen and (max-width:992px) {
+    #boriosa_2_text {
+        height: 50%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #boriosa_2_img {
         height: 20em;
     }
 }
