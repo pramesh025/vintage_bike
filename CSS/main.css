@@ -73,10 +73,9 @@
 }
 
 #vintage_oliva_2_text {
-  height: 60%;
+  height: 50%;
   margin-top: 30px;
   font-size: 0.9em;
-  text-align: center;
   background-color: #ffff;
 }
 
@@ -88,17 +87,19 @@
 
 #vintage_oliva_2_text h5 {
   word-spacing: 0.25em;
-  padding-bottom: 1em;
+  text-align: center;
 }
 
 #vintage_oliva_2_text p {
   margin-left: 2em;
   margin-right: 2em;
   color: #999999;
+  text-align: justify;
+  text-align-last: left;
 }
 
 #vintage_oliva_2_img {
-  height: 40%;
+  height: 50%;
   background-image: url(../Img/vintage_oliva_2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,7 +108,7 @@
 
 @media only screen and (max-width: 767px) {
   #vintage_oliva_2_text {
-    height: auto;
+    height: 50%;
     padding-top: 30px;
     padding-bottom: 30px;
   }
