@@ -56,4 +56,63 @@
     margin-right: 1em;
   }
 }
+
+#vintage_oliva_1 {
+  height: 75vh;
+  background-image: url(../Img/vintage_oliva_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+#vintage_oliva_1 img {
+  height: 5em;
+}
+
+#vintage_oliva_2_text {
+  height: 60%;
+  margin-top: 30px;
+  font-size: 0.9em;
+  text-align: center;
+  background-color: #ffff;
+}
+
+#vintage_oliva_2_text img {
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+#vintage_oliva_2_text h5 {
+  word-spacing: 0.25em;
+  padding-bottom: 1em;
+}
+
+#vintage_oliva_2_text p {
+  margin-left: 2em;
+  margin-right: 2em;
+  color: #999999;
+}
+
+#vintage_oliva_2_img {
+  height: 40%;
+  background-image: url(../Img/vintage_oliva_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+@media only screen and (max-width: 767px) {
+  #vintage_oliva_2_text {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #vintage_oliva_2_img {
+    height: 20em;
+  }
+}
 /*# sourceMappingURL=main.css.map */
