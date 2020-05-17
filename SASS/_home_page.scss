@@ -78,7 +78,7 @@
 #vintage_oliva_2_text {
     height: 50%;
     margin-top: 30px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     background-color: #ffff;
     img {
         padding: 20px;
@@ -154,7 +154,7 @@
 #boriosa_2_text {
     height: 50%;
     margin-top: 30px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     background-color: #ffff;
     img {
         padding: 20px;
@@ -230,7 +230,7 @@
 #retro_2_text {
     height: 50%;
     margin-top: 30px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     background-color: #ffff;
     img {
         padding: 20px;
@@ -301,4 +301,53 @@
     place-content: center;
 }
 
-@media only screen and (max-width:991px) {}
+.carousel-item {
+    height: 30vh;
+    background-color: #f7f7f7;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 7px;
+    background-color: #424242;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+#twitter {
+    text-align: center;
+    color: lighten($color: #000000, $amount: 60%);
+    i {
+        font-size: 18pt;
+        color: #56c7ee;
+        margin-top: 10%;
+    }
+    h5 {
+        margin-top: 1.5em;
+        text-transform: uppercase;
+        font-size: 11pt;
+        word-spacing: 0.5em;
+        b {
+            color: lighten($color: #000000, $amount: 10%);
+        }
+    }
+    p {
+        font-size: 11pt;
+        margin-bottom: 10%;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+}
