@@ -47,6 +47,12 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    #nav_bar {
+        background-color: rgba(247, 247, 247, 0) !important;
+    }
+}
+
 @media only screen and (max-width: 710px) {
     #hp-intro {
         p {
