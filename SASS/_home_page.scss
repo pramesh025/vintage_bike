@@ -129,6 +129,15 @@
     }
 }
 
+@media only screen and (max-width:991px) and (min-width:780px) {
+    #vintage_oliva_2_text {
+        p {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
+}
+
 #boriosa_1 {
     height: 75vh;
     background-image: url(../Img/boriosa_1.png);
@@ -193,5 +202,14 @@
     }
     #boriosa_2_img {
         height: 20em;
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width:780px) {
+    #boriosa_2_text {
+        p {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
     }
 }
